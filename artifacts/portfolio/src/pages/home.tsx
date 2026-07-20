@@ -20,21 +20,16 @@ export default function Home() {
         Studying at Aristotle University of Thessaloniki, with hands-on experience in electrical installations, industrial maintenance, and power systems. Interested in medium &amp; high voltage, electrical protection, and industrial power distribution.
       </p>
       
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 font-mono text-sm border border-border p-6 bg-card/30 backdrop-blur-sm">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 font-mono text-sm border border-border p-6 bg-card/30 backdrop-blur-sm">
         <div className="flex flex-col space-y-2">
           <span className="text-muted-foreground border-b border-border/50 pb-2 mb-1">LOCATION</span>
           <span className="text-foreground">Thessaloniki, Greece</span>
         </div>
         <div className="flex flex-col space-y-2">
           <span className="text-muted-foreground border-b border-border/50 pb-2 mb-1">LINKEDIN</span>
-          <a href="https://www.linkedin.com/in/stefanos-chatzikyriakou/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center justify-between group">
-            in/stefanos-chatzikyriakou <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-          </a>
-        </div>
-        <div className="flex flex-col space-y-2">
-          <span className="text-muted-foreground border-b border-border/50 pb-2 mb-1">WEBSITE</span>
-          <a href="https://chatzikys.github.io" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center justify-between group">
-            chatzikys.github.io <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+          <a href="https://www.linkedin.com/in/stefanos-chatzikyriakou/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 group">
+            <span className="truncate">stefanos-chatzikyriakou</span>
+            <ArrowUpRight className="w-4 h-4 shrink-0 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
         </div>
       </div>
