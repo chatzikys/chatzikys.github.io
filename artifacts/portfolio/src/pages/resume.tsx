@@ -25,24 +25,24 @@ export default function Resume() {
         <div className="font-sans">
           
           <header className="border-b-2 border-primary print:border-gray-800 pb-6 mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
-            <div>
-              <h1 className="text-3xl sm:text-4xl font-bold uppercase tracking-tight mb-2">STEFANOS CHATZIKYRIAKOU</h1>
-              <h2 className="text-lg font-mono text-muted-foreground print:text-gray-600">Electrical &amp; Computer Engineering Student</h2>
-            </div>
-            <div className="flex items-end gap-4">
-              <div className="sm:text-right font-mono text-sm space-y-1 text-muted-foreground print:text-gray-600">
-                <p>Thessaloniki, Greece</p>
-                <p>linkedin.com/in/stefanos-chatzikyriakou</p>
-                <p>chatzikys.github.io</p>
-              </div>
+            <div className="flex items-center gap-6">
               {/* Profile photo placeholder */}
-              <div className="w-20 h-20 border border-border print:border-gray-400 flex items-center justify-center flex-shrink-0 bg-card print:bg-gray-100 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-1.5 h-1.5 border-t border-l border-primary print:border-gray-400 m-1"></div>
-                <div className="absolute top-0 right-0 w-1.5 h-1.5 border-t border-r border-primary print:border-gray-400 m-1"></div>
-                <div className="absolute bottom-0 left-0 w-1.5 h-1.5 border-b border-l border-primary print:border-gray-400 m-1"></div>
-                <div className="absolute bottom-0 right-0 w-1.5 h-1.5 border-b border-r border-primary print:border-gray-400 m-1"></div>
-                <span className="font-mono text-xl font-light text-muted-foreground print:text-gray-500">SC</span>
+              <div className="w-28 h-28 border border-border print:border-gray-400 flex items-center justify-center flex-shrink-0 bg-card print:bg-gray-100 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-primary print:border-gray-400 m-1.5"></div>
+                <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-primary print:border-gray-400 m-1.5"></div>
+                <div className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-primary print:border-gray-400 m-1.5"></div>
+                <div className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-primary print:border-gray-400 m-1.5"></div>
+                <span className="font-mono text-3xl font-light text-muted-foreground print:text-gray-500">SC</span>
               </div>
+              <div>
+                <h1 className="text-3xl sm:text-4xl font-bold uppercase tracking-tight mb-2">STEFANOS CHATZIKYRIAKOU</h1>
+                <h2 className="text-lg font-mono text-muted-foreground print:text-gray-600">Electrical &amp; Computer Engineering Student</h2>
+              </div>
+            </div>
+            <div className="sm:text-right font-mono text-sm space-y-1 text-muted-foreground print:text-gray-600">
+              <p>Thessaloniki, Greece</p>
+              <p>linkedin.com/in/stefanos-chatzikyriakou</p>
+              <p>chatzikys.github.io</p>
             </div>
           </header>
 
