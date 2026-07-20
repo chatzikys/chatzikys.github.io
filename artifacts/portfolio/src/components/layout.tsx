@@ -39,7 +39,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </main>
       <footer className="border-t border-border py-6 mt-12 print:hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-between items-center text-xs font-mono text-muted-foreground">
-          <span>Stefanos Chatzikyriakou &copy; 2026</span>
+          <span className="w-full text-center">Stefanos Chatzikyriakou &copy; 2026</span>
         </div>
       </footer>
     </div>
