@@ -5,7 +5,6 @@ export default function About() {
     <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       
       <div className="mb-12">
-        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 01 — PROFILE</span>
         <h1 className="text-4xl font-bold tracking-tight">ABOUT</h1>
       </div>
 

@@ -10,7 +10,6 @@ export default function Resume() {
       
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-12 print:hidden border-b border-border pb-6 gap-4">
         <div>
-          <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 03 — CURRICULUM VITAE</span>
           <h1 className="text-4xl font-bold tracking-tight">RESUME</h1>
         </div>
         <button 

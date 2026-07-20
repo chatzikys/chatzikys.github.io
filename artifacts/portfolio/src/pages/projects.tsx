@@ -63,7 +63,6 @@ export default function Projects() {
   return (
     <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="mb-12 border-b border-border pb-6">
-        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 02 — PROJECT REGISTER</span>
         <h1 className="text-4xl font-bold tracking-tight">PROJECTS</h1>
         <p className="text-muted-foreground mt-4 font-mono text-sm max-w-2xl uppercase">
           Schematics, simulations, and hardware implementations.
