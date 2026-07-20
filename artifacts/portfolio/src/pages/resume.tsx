@@ -46,10 +46,10 @@ export default function Resume() {
             </div>
           </header>
 
-          <section className="mb-8">
+          <section className="mb-8 print:pt-6">
             <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Experience</h3>
 
-            <div className="mb-6 pl-4 break-inside-avoid">
+            <div className="mb-6 pl-4 break-inside-avoid print:pt-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">AMPPE S.A.</div>
                 <div className="font-mono text-sm self-center">Jul 2026 – Present</div>
@@ -64,7 +64,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="mb-6 pl-4 break-inside-avoid">
+            <div className="mb-6 pl-4 break-inside-avoid print:pt-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">myFOS O.E.</div>
                 <div className="font-mono text-sm self-center">Feb 2024 – Present</div>
@@ -77,7 +77,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="mb-6 pl-4 break-inside-avoid">
+            <div className="mb-6 pl-4 break-inside-avoid print:pt-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">Self-employed</div>
                 <div className="font-mono text-sm self-center">Jul 2022 – Present</div>
@@ -92,7 +92,7 @@ export default function Resume() {
             </div>
           </section>
 
-          <section className="mb-8 break-inside-avoid">
+          <section className="mb-8 break-inside-avoid print:pt-6">
             <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Education</h3>
             <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
               <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
@@ -115,7 +115,7 @@ export default function Resume() {
             </div>
           </section>
 
-          <section className="mb-8 break-inside-avoid">
+          <section className="mb-8 break-inside-avoid print:pt-6">
             <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Technical Skills</h3>
             <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm pl-4 leading-relaxed">
               <div className="font-mono text-muted-foreground print:text-gray-600 uppercase font-semibold">Areas:</div>
@@ -125,7 +125,7 @@ export default function Resume() {
             </div>
           </section>
 
-          <section className="break-inside-avoid">
+          <section className="break-inside-avoid print:pt-6">
             <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Certifications</h3>
             <ul className="list-disc list-outside text-sm space-y-2 ml-8 text-muted-foreground print:text-gray-800">
               <li>MEng Electrical &amp; Computer Engineering — Aristotle University of Thessaloniki (In Progress, 2027)</li>
