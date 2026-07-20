@@ -24,20 +24,30 @@ export default function Resume() {
         {/* Print Layout */}
         <div className="font-sans">
           
-          <header className="border-b-2 border-primary print:border-black pb-6 mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
+          <header className="border-b-2 border-primary print:border-gray-800 pb-6 mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6">
             <div>
               <h1 className="text-3xl sm:text-4xl font-bold uppercase tracking-tight mb-2">STEFANOS CHATZIKYRIAKOU</h1>
               <h2 className="text-lg font-mono text-muted-foreground print:text-gray-600">Electrical &amp; Computer Engineering Student</h2>
             </div>
-            <div className="sm:text-right font-mono text-sm space-y-1 text-muted-foreground print:text-gray-600">
-              <p>Thessaloniki, Greece</p>
-              <p>linkedin.com/in/stefanos-chatzikyriakou</p>
-              <p>chatzikys.github.io</p>
+            <div className="flex items-end gap-4">
+              <div className="sm:text-right font-mono text-sm space-y-1 text-muted-foreground print:text-gray-600">
+                <p>Thessaloniki, Greece</p>
+                <p>linkedin.com/in/stefanos-chatzikyriakou</p>
+                <p>chatzikys.github.io</p>
+              </div>
+              {/* Profile photo placeholder */}
+              <div className="w-20 h-20 border border-border print:border-gray-400 flex items-center justify-center flex-shrink-0 bg-card print:bg-gray-100 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1.5 h-1.5 border-t border-l border-primary print:border-gray-400 m-1"></div>
+                <div className="absolute top-0 right-0 w-1.5 h-1.5 border-t border-r border-primary print:border-gray-400 m-1"></div>
+                <div className="absolute bottom-0 left-0 w-1.5 h-1.5 border-b border-l border-primary print:border-gray-400 m-1"></div>
+                <div className="absolute bottom-0 right-0 w-1.5 h-1.5 border-b border-r border-primary print:border-gray-400 m-1"></div>
+                <span className="font-mono text-xl font-light text-muted-foreground print:text-gray-500">SC</span>
+              </div>
             </div>
           </header>
 
           <section className="mb-8 break-inside-avoid">
-            <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">01 // Education</h3>
+            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Education</h3>
             <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
               <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
               <div className="font-mono text-sm self-center">2022 – 2027</div>
@@ -60,7 +70,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-8">
-            <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">02 // Experience</h3>
+            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Experience</h3>
 
             <div className="mb-6 pl-4 break-inside-avoid">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
@@ -106,7 +116,7 @@ export default function Resume() {
           </section>
 
           <section className="mb-8 break-inside-avoid">
-            <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">03 // Technical Skills</h3>
+            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Technical Skills</h3>
             <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm pl-4 leading-relaxed">
               <div className="font-mono text-muted-foreground print:text-gray-600 uppercase font-semibold">Areas:</div>
               <div>Power Systems, Medium &amp; High Voltage, Electrical Protection, Surge &amp; Lightning Protection, Industrial Power Distribution</div>
@@ -116,7 +126,7 @@ export default function Resume() {
           </section>
 
           <section className="break-inside-avoid">
-            <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">04 // Certifications</h3>
+            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Certifications</h3>
             <ul className="list-disc list-outside text-sm space-y-2 ml-8 text-muted-foreground print:text-gray-800">
               <li>MEng Electrical &amp; Computer Engineering — Aristotle University of Thessaloniki (In Progress, 2027)</li>
               <li>Technician in Electrical Systems, Installations &amp; Networks — 1st Vocational High School of Neapoli (Grade: 19.5/20)</li>
