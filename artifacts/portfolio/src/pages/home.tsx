@@ -31,12 +31,6 @@ export default function Home() {
           </a>
         </div>
         <div className="flex flex-col space-y-2">
-          <span className="text-muted-foreground border-b border-border/50 pb-2 mb-1">GITHUB</span>
-          <a href="#" className="hover:text-primary transition-colors flex items-center justify-between group">
-            github.com/user <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-          </a>
-        </div>
-        <div className="flex flex-col space-y-2">
           <span className="text-muted-foreground border-b border-border/50 pb-2 mb-1">LINKEDIN</span>
           <a href="#" className="hover:text-primary transition-colors flex items-center justify-between group">
             in/user <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
