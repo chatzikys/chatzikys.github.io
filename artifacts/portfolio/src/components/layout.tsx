@@ -4,10 +4,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
 
   const links = [
-    { href: '/', label: '00_HOME' },
-    { href: '/about', label: '01_ABOUT' },
-    { href: '/projects', label: '02_PROJECTS' },
-    { href: '/resume', label: '03_RESUME' },
+    { href: '/', label: 'HOME' },
+    { href: '/about', label: 'ABOUT' },
+    { href: '/projects', label: 'PROJECTS' },
+    { href: '/resume', label: 'RESUME' },
   ];
 
   return (
@@ -15,7 +15,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-sm print:hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <Link href="/" className="font-mono font-semibold text-primary tracking-wider hover:text-primary/80 transition-colors">
-            SYS.OP //
+            ENG. PORTFOLIO
           </Link>
           <nav className="flex items-center gap-4 sm:gap-6 overflow-x-auto whitespace-nowrap scrollbar-hide py-2">
             {links.map((link) => {
@@ -39,8 +39,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </main>
       <footer className="border-t border-border py-6 mt-12 print:hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex justify-between items-center text-xs font-mono text-muted-foreground">
-          <span>STATUS: ONLINE</span>
-          <span>SYS.VER: 1.0.0</span>
+          <span>ELECTRICAL ENGINEERING PORTFOLIO</span>
+          <span>REV 1.0</span>
         </div>
       </footer>
     </div>

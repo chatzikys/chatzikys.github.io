@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center min-h-[calc(100vh-14rem)] max-w-3xl animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div className="mb-4">
-        <span className="font-mono text-primary text-sm tracking-widest uppercase">ID_RECORD_001</span>
+        <span className="font-mono text-primary text-sm tracking-widest uppercase">DOC-001 / PERSONAL RECORD</span>
       </div>
       <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6 uppercase">
         FIRSTNAME <br/>

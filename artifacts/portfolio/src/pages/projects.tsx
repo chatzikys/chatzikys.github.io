@@ -12,9 +12,9 @@ export default function Projects() {
     if (!project) {
       return (
         <div className="flex flex-col items-center justify-center min-h-[50vh] space-y-4">
-          <div className="font-mono text-destructive uppercase">ERR_404: PROJECT_NOT_FOUND</div>
+          <div className="font-mono text-destructive uppercase">Project not found</div>
           <Link href="/projects" className="text-primary hover:underline font-mono text-sm">
-            RETURN_TO_INDEX
+            Back to Projects
           </Link>
         </div>
       );
@@ -23,7 +23,7 @@ export default function Projects() {
     return (
       <div className="max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
         <Link href="/projects" className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground hover:text-primary transition-colors mb-8 group">
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> BACK_TO_LIST
+          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Back to Projects
         </Link>
         
         <header className="mb-10 border-b border-border pb-8">
@@ -63,10 +63,10 @@ export default function Projects() {
   return (
     <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="mb-12 border-b border-border pb-6">
-        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">SEC_02</span>
-        <h1 className="text-4xl font-bold tracking-tight">PROJECTS_LOG</h1>
+        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 02 — PROJECT REGISTER</span>
+        <h1 className="text-4xl font-bold tracking-tight">PROJECTS</h1>
         <p className="text-muted-foreground mt-4 font-mono text-sm max-w-2xl uppercase">
-          RECORDED SCHEMATICS, SIMULATIONS, AND HARDWARE IMPLEMENTATIONS.
+          Schematics, simulations, and hardware implementations.
         </p>
       </div>
 

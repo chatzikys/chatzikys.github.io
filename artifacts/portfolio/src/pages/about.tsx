@@ -1,12 +1,12 @@
-import { Terminal } from 'lucide-react';
+import { Zap } from 'lucide-react';
 
 export default function About() {
   return (
     <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       
       <div className="mb-12">
-        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">SEC_01</span>
-        <h1 className="text-4xl font-bold tracking-tight">OPERATOR_BIO</h1>
+        <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 01 — PROFILE</span>
+        <h1 className="text-4xl font-bold tracking-tight">ABOUT</h1>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] gap-8 md:gap-12 items-start">
@@ -23,16 +23,16 @@ export default function About() {
           
           <div className="font-mono text-sm border border-border bg-card p-4 space-y-2">
             <div className="flex justify-between border-b border-border/50 pb-1">
-              <span className="text-muted-foreground">STATUS:</span>
-              <span className="text-primary">ACTIVE</span>
+              <span className="text-muted-foreground">FIELD:</span>
+              <span className="text-primary">POWER ENG.</span>
             </div>
             <div className="flex justify-between border-b border-border/50 pb-1">
-              <span className="text-muted-foreground">LOC:</span>
-              <span>SITE_74</span>
+              <span className="text-muted-foreground">DEGREE:</span>
+              <span>B.Sc. EE</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-muted-foreground">ROLE:</span>
-              <span>EE_STDNT</span>
+              <span className="text-muted-foreground">YEAR:</span>
+              <span>4th</span>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function About() {
         <div className="space-y-10">
           <section>
             <h2 className="text-xl font-bold flex items-center gap-2 mb-4 border-b border-border pb-2 uppercase">
-              <Terminal className="w-5 h-5 text-primary" /> _Initialize
+              <Zap className="w-5 h-5 text-primary" /> Overview
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -54,18 +54,18 @@ export default function About() {
 
           <section>
             <h2 className="text-xl font-bold flex items-center gap-2 mb-4 border-b border-border pb-2 uppercase">
-              <Terminal className="w-5 h-5 text-primary" /> _Current_Work
+              <Zap className="w-5 h-5 text-primary" /> Current Work
             </h2>
-            <ul className="space-y-4 font-mono text-sm">
+            <ul className="space-y-4 text-sm">
               <li className="flex gap-4 p-4 border border-border bg-card/30">
-                <span className="text-primary mt-1">[{'>'}]</span>
+                <span className="text-primary mt-1 font-mono">—</span>
                 <div>
                   <strong className="text-foreground font-sans text-base block mb-1">Senior Capstone: Bidirectional EV Charger</strong>
                   <span className="text-muted-foreground leading-relaxed block">Designing a 6.6kW onboard charger with V2G (Vehicle-to-Grid) capabilities using SiC MOSFETs.</span>
                 </div>
               </li>
               <li className="flex gap-4 p-4 border border-border bg-card/30">
-                <span className="text-primary mt-1">[{'>'}]</span>
+                <span className="text-primary mt-1 font-mono">—</span>
                 <div>
                   <strong className="text-foreground font-sans text-base block mb-1">Embedded Systems Lab</strong>
                   <span className="text-muted-foreground leading-relaxed block">Writing a real-time operating system (RTOS) scheduler for ARM Cortex-M4 from scratch.</span>
@@ -76,7 +76,7 @@ export default function About() {
 
           <section>
             <h2 className="text-xl font-bold flex items-center gap-2 mb-4 border-b border-border pb-2 uppercase">
-              <Terminal className="w-5 h-5 text-primary" /> _Interests
+              <Zap className="w-5 h-5 text-primary" /> Interests
             </h2>
             <div className="flex flex-wrap gap-2">
               {['Renewable Integration', 'Motor Control', 'PCB Layout', 'FPGA Prototyping', 'Audio Amplifiers', 'Energy Storage'].map((interest) => (

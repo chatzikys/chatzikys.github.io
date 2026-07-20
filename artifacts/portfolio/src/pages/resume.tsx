@@ -10,14 +10,14 @@ export default function Resume() {
       
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-12 print:hidden border-b border-border pb-6 gap-4">
         <div>
-          <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">SEC_03</span>
-          <h1 className="text-4xl font-bold tracking-tight">RESUME_DAT</h1>
+          <span className="font-mono text-primary text-sm tracking-widest uppercase mb-2 block">§ 03 — CURRICULUM VITAE</span>
+          <h1 className="text-4xl font-bold tracking-tight">RESUME</h1>
         </div>
         <button 
           onClick={printPage}
           className="flex items-center gap-2 bg-primary text-primary-foreground font-mono text-sm px-4 py-2 hover:bg-primary/90 transition-colors uppercase font-bold"
         >
-          <Printer className="w-4 h-4" /> Print_PDF
+          <Printer className="w-4 h-4" /> Download PDF
         </button>
       </div>
 
