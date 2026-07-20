@@ -17,21 +17,21 @@ export default function About() {
             <div className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-primary m-2"></div>
             <div className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-primary m-2"></div>
             
-            <span className="font-mono text-6xl font-light tracking-tighter text-muted-foreground group-hover:text-primary transition-colors">FL</span>
+            <span className="font-mono text-6xl font-light tracking-tighter text-muted-foreground group-hover:text-primary transition-colors">SC</span>
           </div>
           
           <div className="font-mono text-sm border border-border bg-card p-4 space-y-2">
             <div className="flex justify-between border-b border-border/50 pb-1">
-              <span className="text-muted-foreground">FIELD:</span>
-              <span className="text-primary">POWER ENG.</span>
+              <span className="text-muted-foreground">UNIVERSITY:</span>
+              <span className="text-primary">AUTH</span>
             </div>
             <div className="flex justify-between border-b border-border/50 pb-1">
               <span className="text-muted-foreground">DEGREE:</span>
-              <span>B.Sc. EE</span>
+              <span>B.Sc. ECE</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-muted-foreground">YEAR:</span>
-              <span>4th</span>
+              <span className="text-muted-foreground">LOCATION:</span>
+              <span>Thessaloniki</span>
             </div>
           </div>
         </div>
@@ -43,10 +43,13 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I am an electrical engineering student with a deep fascination for the physical infrastructure that powers our world. While software eats the world, hardware still has to power the servers. 
+                Electrical &amp; Computer Engineering student at Aristotle University of Thessaloniki (AUTH), with hands-on experience in electrical installations, industrial maintenance, technical sales, and power systems.
               </p>
               <p>
-                My focus lies at the intersection of power electronics, control systems, and grid modernization. I build physical systems, simulate complex grid interactions, and write code that talks directly to silicon.
+                Alongside my studies I have worked as a freelance electrical technician — residential installations, structured cabling, troubleshooting, and maintenance — and part-time in technical sales, helping contractors select electrical equipment. I am currently doing an engineering internship focused on power systems, developing skills in electrical assemblies, schematic interpretation, testing, and industrial power distribution.
+              </p>
+              <p>
+                I enjoy connecting theory with real-world applications and continuously expanding my technical knowledge.
               </p>
             </div>
           </section>
@@ -59,15 +62,22 @@ export default function About() {
               <li className="flex gap-4 p-4 border border-border bg-card/30">
                 <span className="text-primary mt-1 font-mono">—</span>
                 <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">Senior Capstone: Bidirectional EV Charger</strong>
-                  <span className="text-muted-foreground leading-relaxed block">Designing a 6.6kW onboard charger with V2G (Vehicle-to-Grid) capabilities using SiC MOSFETs.</span>
+                  <strong className="text-foreground font-sans text-base block mb-1">Power Systems Engineering Internship</strong>
+                  <span className="text-muted-foreground leading-relaxed block">Developing practical skills in electrical assemblies, schematic interpretation, testing, and industrial power distribution.</span>
                 </div>
               </li>
               <li className="flex gap-4 p-4 border border-border bg-card/30">
                 <span className="text-primary mt-1 font-mono">—</span>
                 <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">Embedded Systems Lab</strong>
-                  <span className="text-muted-foreground leading-relaxed block">Writing a real-time operating system (RTOS) scheduler for ARM Cortex-M4 from scratch.</span>
+                  <strong className="text-foreground font-sans text-base block mb-1">Freelance Electrical Technician</strong>
+                  <span className="text-muted-foreground leading-relaxed block">Residential electrical installations, structured cabling, troubleshooting, and maintenance.</span>
+                </div>
+              </li>
+              <li className="flex gap-4 p-4 border border-border bg-card/30">
+                <span className="text-primary mt-1 font-mono">—</span>
+                <div>
+                  <strong className="text-foreground font-sans text-base block mb-1">Technical Sales (Part-time)</strong>
+                  <span className="text-muted-foreground leading-relaxed block">Helping contractors and customers select electrical equipment and providing technical support.</span>
                 </div>
               </li>
             </ul>
@@ -78,7 +88,7 @@ export default function About() {
               <Zap className="w-5 h-5 text-primary" /> Interests
             </h2>
             <div className="flex flex-wrap gap-2">
-              {['Renewable Integration', 'Motor Control', 'PCB Layout', 'FPGA Prototyping', 'Audio Amplifiers', 'Energy Storage'].map((interest) => (
+              {['Power Systems', 'Medium & High Voltage', 'Electrical Protection', 'Surge & Lightning Protection', 'Industrial Electrical Engineering', 'Power Distribution'].map((interest) => (
                 <span key={interest} className="px-3 py-1 bg-secondary text-secondary-foreground text-sm font-mono border border-border">
                   {interest}
                 </span>
