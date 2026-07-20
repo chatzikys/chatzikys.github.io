@@ -36,9 +36,9 @@ export default function Resume() {
             </div>
           </header>
 
-          <section className="mb-8">
+          <section className="mb-8 break-inside-avoid">
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">01 // Education</h3>
-            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4">
+            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
               <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
               <div className="font-mono text-sm self-center">2022 – 2027</div>
               <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Master of Engineering, Electrical &amp; Computer Engineering</div>
@@ -49,7 +49,7 @@ export default function Resume() {
                 <span className="font-bold text-foreground print:text-black">Coursework:</span> High Voltage Engineering, Lightning Protection &amp; Grounding Systems, Transmission &amp; Distribution of Electric Energy, Power Plant Systems, Power Electronics.
               </div>
             </div>
-            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4">
+            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
               <div className="font-bold text-lg">1st Vocational High School of Neapoli</div>
               <div className="font-mono text-sm self-center">2019 – 2022</div>
               <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Technician in Electrical Systems, Installations &amp; Networks</div>
@@ -61,8 +61,8 @@ export default function Resume() {
 
           <section className="mb-8">
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">02 // Experience</h3>
-            
-            <div className="mb-6 pl-4">
+
+            <div className="mb-6 pl-4 break-inside-avoid">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">AMPPE S.A.</div>
                 <div className="font-mono text-sm self-center">Jul 2026 – Present</div>
@@ -77,7 +77,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="mb-6 pl-4">
+            <div className="mb-6 pl-4 break-inside-avoid">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">myFOS O.E.</div>
                 <div className="font-mono text-sm self-center">Feb 2024 – Present</div>
@@ -90,7 +90,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="mb-6 pl-4">
+            <div className="mb-6 pl-4 break-inside-avoid">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">Self-employed</div>
                 <div className="font-mono text-sm self-center">Jul 2022 – Present</div>
@@ -105,7 +105,7 @@ export default function Resume() {
             </div>
           </section>
 
-          <section className="mb-8">
+          <section className="mb-8 break-inside-avoid">
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">03 // Technical Skills</h3>
             <div className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm pl-4 leading-relaxed">
               <div className="font-mono text-muted-foreground print:text-gray-600 uppercase font-semibold">Areas:</div>
@@ -114,8 +114,8 @@ export default function Resume() {
               <div>Electrical Installations, Structured Cabling, Schematic Interpretation, Equipment Testing &amp; Commissioning, Panel Wiring</div>
             </div>
           </section>
-          
-          <section>
+
+          <section className="break-inside-avoid">
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">04 // Certifications</h3>
             <ul className="list-disc list-outside text-sm space-y-2 ml-8 text-muted-foreground print:text-gray-800">
               <li>MEng Electrical &amp; Computer Engineering — Aristotle University of Thessaloniki (In Progress, 2027)</li>
