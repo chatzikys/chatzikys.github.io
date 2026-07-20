@@ -20,7 +20,7 @@ export default function Resume() {
         </button>
       </div>
 
-      <div className="bg-card text-foreground p-8 sm:p-12 border border-border print:border-none print:p-0 print:bg-transparent print:text-black">
+      <div className="bg-card text-foreground p-8 sm:p-12 border border-border print:border-none print:px-10 print:py-0 print:bg-transparent print:text-black">
         {/* Print Layout */}
         <div className="font-sans">
           
@@ -45,29 +45,6 @@ export default function Resume() {
               <p>chatzikys.github.io</p>
             </div>
           </header>
-
-          <section className="mb-8 break-inside-avoid">
-            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Education</h3>
-            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
-              <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
-              <div className="font-mono text-sm self-center">2022 – 2027</div>
-              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Master of Engineering, Electrical &amp; Computer Engineering</div>
-              <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
-                <span className="font-bold text-foreground print:text-black">Focus:</span> Power Systems &amp; High Voltage Engineering — power generation, transmission &amp; distribution, HV systems, and electrical protection.
-              </div>
-              <div className="text-sm col-span-2 leading-relaxed text-muted-foreground print:text-gray-800">
-                <span className="font-bold text-foreground print:text-black">Coursework:</span> High Voltage Engineering, Lightning Protection &amp; Grounding Systems, Transmission &amp; Distribution of Electric Energy, Power Plant Systems, Power Electronics.
-              </div>
-            </div>
-            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
-              <div className="font-bold text-lg">1st Vocational High School of Neapoli</div>
-              <div className="font-mono text-sm self-center">2019 – 2022</div>
-              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Technician in Electrical Systems, Installations &amp; Networks</div>
-              <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
-                <span className="font-bold text-foreground print:text-black">Grade:</span> 19.5 / 20 — Electrical installations &amp; wiring, panels &amp; protection devices, electrical machines &amp; automation.
-              </div>
-            </div>
-          </section>
 
           <section className="mb-8">
             <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Experience</h3>
@@ -112,6 +89,29 @@ export default function Resume() {
                 <li>Install structured cabling and FTTH infrastructure.</li>
                 <li>Carry out electrical panel upgrades, lighting installations, and wiring modifications.</li>
               </ul>
+            </div>
+          </section>
+
+          <section className="mb-8 break-inside-avoid">
+            <h3 className="text-base font-bold tracking-widest uppercase mb-4 border-b border-border print:border-gray-300 pb-2 print:text-black">Education</h3>
+            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
+              <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
+              <div className="font-mono text-sm self-center">2022 – 2027</div>
+              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Master of Engineering, Electrical &amp; Computer Engineering</div>
+              <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
+                <span className="font-bold text-foreground print:text-black">Focus:</span> Power Systems &amp; High Voltage Engineering — power generation, transmission &amp; distribution, HV systems, and electrical protection.
+              </div>
+              <div className="text-sm col-span-2 leading-relaxed text-muted-foreground print:text-gray-800">
+                <span className="font-bold text-foreground print:text-black">Coursework:</span> High Voltage Engineering, Lightning Protection &amp; Grounding Systems, Transmission &amp; Distribution of Electric Energy, Power Plant Systems, Power Electronics.
+              </div>
+            </div>
+            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4 break-inside-avoid">
+              <div className="font-bold text-lg">1st Vocational High School of Neapoli</div>
+              <div className="font-mono text-sm self-center">2019 – 2022</div>
+              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Technician in Electrical Systems, Installations &amp; Networks</div>
+              <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
+                <span className="font-bold text-foreground print:text-black">Grade:</span> 19.5 / 20 — Electrical installations &amp; wiring, panels &amp; protection devices, electrical machines &amp; automation.
+              </div>
             </div>
           </section>
 
