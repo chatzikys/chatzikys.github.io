@@ -31,6 +31,7 @@ export default function Resume() {
             </div>
             <div className="sm:text-right font-mono text-sm space-y-1 text-muted-foreground print:text-gray-600">
               <p>Thessaloniki, Greece</p>
+              <p>linkedin.com/in/stefanos-chatzikyriakou</p>
               <p>chatzikys.github.io</p>
             </div>
           </header>
@@ -39,10 +40,21 @@ export default function Resume() {
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">01 // Education</h3>
             <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4">
               <div className="font-bold text-lg">Aristotle University of Thessaloniki (AUTH)</div>
-              <div className="font-mono text-sm self-center">In Progress</div>
-              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Bachelor of Science in Electrical &amp; Computer Engineering</div>
+              <div className="font-mono text-sm self-center">2022 – 2027</div>
+              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Master of Engineering, Electrical &amp; Computer Engineering</div>
               <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
-                <span className="font-bold text-foreground print:text-black">Relevant Coursework:</span> Power Systems, Power Electronics, Control Systems, Signals &amp; Systems, Circuit Analysis, Electromagnetic Fields, High Voltage Engineering.
+                <span className="font-bold text-foreground print:text-black">Focus:</span> Power Systems &amp; High Voltage Engineering — power generation, transmission &amp; distribution, HV systems, and electrical protection.
+              </div>
+              <div className="text-sm col-span-2 leading-relaxed text-muted-foreground print:text-gray-800">
+                <span className="font-bold text-foreground print:text-black">Coursework:</span> High Voltage Engineering, Lightning Protection &amp; Grounding Systems, Transmission &amp; Distribution of Electric Energy, Power Plant Systems, Power Electronics.
+              </div>
+            </div>
+            <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-4 pl-4">
+              <div className="font-bold text-lg">1st Vocational High School of Neapoli</div>
+              <div className="font-mono text-sm self-center">2019 – 2022</div>
+              <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Technician in Electrical Systems, Installations &amp; Networks</div>
+              <div className="text-sm col-span-2 mt-2 leading-relaxed text-muted-foreground print:text-gray-800">
+                <span className="font-bold text-foreground print:text-black">Grade:</span> 19.5 / 20 — Electrical installations &amp; wiring, panels &amp; protection devices, electrical machines &amp; automation.
               </div>
             </div>
           </section>
@@ -52,35 +64,43 @@ export default function Resume() {
             
             <div className="mb-6 pl-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
-                <div className="font-bold text-lg">Power Systems Engineering Internship</div>
-                <div className="font-mono text-sm self-center">Current</div>
+                <div className="font-bold text-lg">AMPPE S.A.</div>
+                <div className="font-mono text-sm self-center">Jul 2026 – Present</div>
                 <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Electrical Engineering Intern</div>
               </div>
               <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
-                <li>Developing practical skills in electrical assemblies, schematic interpretation, and industrial power distribution.</li>
-                <li>Performing testing and commissioning tasks on power systems equipment.</li>
+                <li>Assist in the installation, testing, and maintenance of Medium- and High-Voltage substations.</li>
+                <li>Interpret electrical schematics, single-line diagrams, and technical documentation.</li>
+                <li>Participate in electrical assembly and commissioning activities.</li>
+                <li>Support preventive and corrective maintenance of industrial power distribution equipment.</li>
+                <li>Follow engineering safety procedures and industry standards in industrial environments.</li>
               </ul>
             </div>
 
             <div className="mb-6 pl-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
-                <div className="font-bold text-lg">Freelance Electrical Technician</div>
-                <div className="font-mono text-sm self-center">Ongoing</div>
-                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Self-employed</div>
+                <div className="font-bold text-lg">myFOS O.E.</div>
+                <div className="font-mono text-sm self-center">Feb 2024 – Present</div>
+                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Sales Associate (Part-time)</div>
               </div>
               <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
-                <li>Residential electrical installations, structured cabling, troubleshooting, and electrical maintenance.</li>
+                <li>Advise electricians, contractors, and engineers on electrical equipment, switchgear, lighting systems, and installation materials.</li>
+                <li>Recommend products based on technical specifications and project requirements.</li>
+                <li>Provide technical support regarding installation practices and product selection.</li>
               </ul>
             </div>
 
             <div className="mb-6 pl-4">
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
-                <div className="font-bold text-lg">Technical Sales (Part-time)</div>
-                <div className="font-mono text-sm self-center">Ongoing</div>
-                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Electrical Equipment Retail</div>
+                <div className="font-bold text-lg">Self-employed</div>
+                <div className="font-mono text-sm self-center">Jul 2022 – Present</div>
+                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">Freelance Electrical Technician</div>
               </div>
               <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
-                <li>Helping contractors and customers select electrical equipment and providing technical support.</li>
+                <li>Install, maintain, and troubleshoot residential electrical installations.</li>
+                <li>Perform electrical fault diagnosis and repairs.</li>
+                <li>Install structured cabling and FTTH infrastructure.</li>
+                <li>Carry out electrical panel upgrades, lighting installations, and wiring modifications.</li>
               </ul>
             </div>
           </section>
@@ -98,7 +118,8 @@ export default function Resume() {
           <section>
             <h3 className="text-sm font-bold tracking-widest uppercase font-mono mb-4 text-primary print:text-black border-l-2 border-primary pl-3">04 // Certifications</h3>
             <ul className="list-disc list-outside text-sm space-y-2 ml-8 text-muted-foreground print:text-gray-800">
-              <li>B.Sc. Electrical &amp; Computer Engineering — Aristotle University of Thessaloniki (In Progress)</li>
+              <li>MEng Electrical &amp; Computer Engineering — Aristotle University of Thessaloniki (In Progress, 2027)</li>
+              <li>Technician in Electrical Systems, Installations &amp; Networks — 1st Vocational High School of Neapoli (Grade: 19.5/20)</li>
             </ul>
           </section>
         </div>

@@ -62,22 +62,22 @@ export default function About() {
               <li className="flex gap-4 p-4 border border-border bg-card/30">
                 <span className="text-primary mt-1 font-mono">—</span>
                 <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">Power Systems Engineering Internship</strong>
-                  <span className="text-muted-foreground leading-relaxed block">Developing practical skills in electrical assemblies, schematic interpretation, testing, and industrial power distribution.</span>
+                  <strong className="text-foreground font-sans text-base block mb-1">Electrical Engineering Intern — AMPPE S.A.</strong>
+                  <span className="text-muted-foreground leading-relaxed block">Installation, testing, and maintenance of Medium- and High-Voltage substations. Schematic interpretation, commissioning, and industrial power distribution maintenance. <span className="text-primary font-mono text-xs">Jul 2026 – Present</span></span>
+                </div>
+              </li>
+              <li className="flex gap-4 p-4 border border-border bg-card/30">
+                <span className="text-primary mt-1 font-mono">—</span>
+                <div>
+                  <strong className="text-foreground font-sans text-base block mb-1">Sales Associate — myFOS O.E.</strong>
+                  <span className="text-muted-foreground leading-relaxed block">Technical sales of electrical equipment, switchgear, and lighting systems. Advising electricians, contractors, and engineers on product selection and installation practices. <span className="text-primary font-mono text-xs">Feb 2024 – Present</span></span>
                 </div>
               </li>
               <li className="flex gap-4 p-4 border border-border bg-card/30">
                 <span className="text-primary mt-1 font-mono">—</span>
                 <div>
                   <strong className="text-foreground font-sans text-base block mb-1">Freelance Electrical Technician</strong>
-                  <span className="text-muted-foreground leading-relaxed block">Residential electrical installations, structured cabling, troubleshooting, and maintenance.</span>
-                </div>
-              </li>
-              <li className="flex gap-4 p-4 border border-border bg-card/30">
-                <span className="text-primary mt-1 font-mono">—</span>
-                <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">Technical Sales (Part-time)</strong>
-                  <span className="text-muted-foreground leading-relaxed block">Helping contractors and customers select electrical equipment and providing technical support.</span>
+                  <span className="text-muted-foreground leading-relaxed block">Residential installations, structured cabling, FTTH infrastructure, panel upgrades, fault diagnosis and repairs. <span className="text-primary font-mono text-xs">Jul 2022 – Present</span></span>
                 </div>
               </li>
             </ul>

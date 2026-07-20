@@ -1,0 +1,93 @@
+{
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Electrical Engineering Intern",
+      "company": "AMPPE S.A.",
+      "employmentType": "Internship",
+      "location": "Thessaloniki, Central Macedonia, Greece",
+      "workplaceType": "On-site",
+      "startDate": "2026-07",
+      "endDate": "Present",
+      "duration": "1 mo",
+      "summary": "",
+      "highlights": [
+        "Assist in the installation, testing, and maintenance of Medium- and High-Voltage substations.",
+        "Interpret electrical schematics, single-line diagrams, and technical documentation.",
+        "Participate in electrical assembly and commissioning activities.",
+        "Support preventive and corrective maintenance of industrial power distribution equipment.",
+        "Follow engineering safety procedures and industry standards while working in industrial environments."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Sales Associate",
+      "company": "myFOS O.E.",
+      "employmentType": "Part-time",
+      "location": "Thessaloniki, Central Macedonia, Greece",
+      "workplaceType": "On-site",
+      "startDate": "2024-02",
+      "endDate": "Present",
+      "duration": "2 yrs 6 mos",
+      "summary": "",
+      "highlights": [
+        "Advise electricians, contractors, and engineers on electrical equipment, switchgear, lighting systems, and installation materials.",
+        "Recommend products based on technical specifications and project requirements.",
+        "Provide technical support regarding installation practices and product selection.",
+        "Develop strong communication and problem-solving skills through interaction with professionals."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "role": "Freelance Electrical Technician",
+      "company": "Self Employed",
+      "employmentType": "Freelance",
+      "location": "Greece",
+      "workplaceType": "On-site",
+      "startDate": "2022-07",
+      "endDate": "Present",
+      "duration": "4 yrs 1 mo",
+      "summary": "While pursuing my Electrical & Computer Engineering studies at Aristotle University of Thessaloniki, I undertake selected freelance electrical projects to gain practical experience and further develop my technical skills.",
+      "highlights": [
+        "Install, maintain, and troubleshoot residential electrical installations.",
+        "Perform electrical fault diagnosis and repairs.",
+        "Install structured cabling and FTTH infrastructure.",
+        "Carry out electrical panel upgrades, lighting installations, and wiring modifications."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Aristotle University of Thessaloniki (AUTH)",
+      "degree": "Master of Engineering, Electrical and Computer Engineering",
+      "startDate": "2022",
+      "endDate": "2027",
+      "grade": null,
+      "summary": "Focusing on Power Systems and High Voltage Engineering, with coursework covering electrical power generation, transmission and distribution, high-voltage systems, and electrical protection.",
+      "coursework": [
+        "High Voltage Engineering",
+        "Lightning Protection & Grounding Systems",
+        "Transmission & Distribution of Electric Energy",
+        "Power Plant Systems",
+        "Power Electronics"
+      ],
+      "outcome": "Through these courses, I have developed knowledge in power system operation, HV infrastructure, protection techniques, and modern energy systems."
+    },
+    {
+      "id": "edu-2",
+      "institution": "1st Vocational High School of Neapoli",
+      "degree": "Technician in Electrical Systems, Installations, and Networks, Electrician",
+      "startDate": "2019-09",
+      "endDate": "2022-06",
+      "grade": "19.5",
+      "summary": "Technical training focused on electrical installations and electrical networks, including:",
+      "coursework": [
+        "Electrical installations and wiring systems",
+        "Electrical panels and protection devices",
+        "Electrical machines and automation fundamentals"
+      ],
+      "outcome": null
+    }
+  ]
+}
