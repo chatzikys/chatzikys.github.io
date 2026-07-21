@@ -25,16 +25,16 @@ Each panel included:
 
 ## Wiring & Assembly
 
-Both panels were wired from scratch following IEC standards, including:
+Both panels were wired from scratch following all relevant standards, including:
 - Proper cable sizing for the motor rating
 - Numbered terminal blocks for structured wiring
 - DIN rail mounting of all components
-- Labelled conductors for ease of maintenance
 
 ## Result
 
-Both panels were successfully tested and commissioned for pump operation, demonstrating smooth startup with reduced current draw and reliable transition from star to delta configuration.
+Both panels were successfully tested, demonstrating smooth startup with reduced current draw and reliable transition from star to delta configuration.
 
-## Images
+## Images - Schematics
 
 ![Control Panel](/projects/pump-control-panel.jpg)
+![Control Panel shem](/projects/pump_page1.jpg)
