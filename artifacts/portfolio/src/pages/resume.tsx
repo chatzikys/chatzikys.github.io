@@ -39,10 +39,10 @@ export default function Resume() {
                 </span>
               </div>
               <div>
-                <h1 className="text-3xl sm:text-4xl font-bold uppercase tracking-tight mb-2">
+                <h1 className="text-lg sm:text-3xl print:text-4xl font-bold uppercase tracking-tight mb-2 break-words">
                   STEFANOS CHATZIKYRIAKOU
                 </h1>
-                <h2 className="text-lg font-mono text-muted-foreground print:text-gray-600">
+                <h2 className="text-sm sm:text-lg font-mono text-muted-foreground print:text-gray-600">
                   Electrical &amp; Computer Engineering Student
                 </h2>
               </div>
