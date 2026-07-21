@@ -64,11 +64,8 @@ export default function Projects() {
     <div className="max-w-4xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="mb-12 border-b border-border pb-6">
         <h1 className="text-4xl font-bold tracking-tight">PROJECTS</h1>
-        <p className="text-muted-foreground mt-4 font-mono text-sm max-w-2xl uppercase">
-          Schematics, simulations, and hardware implementations.
-        </p>
+        <p className="text-muted-foreground mt-4 font-mono text-sm max-w-2xl uppercase">Schematics and implementations.</p>
       </div>
-
       <div className="flex flex-col gap-4">
         {projects.map((project, idx) => (
           <Link 
