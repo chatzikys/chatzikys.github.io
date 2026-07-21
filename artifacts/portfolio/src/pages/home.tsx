@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 export default function Home() {
   return (
     <div className="flex flex-col justify-center min-h-[calc(100vh-14rem)] max-w-3xl animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6 uppercase">
+      <h1 className="text-3xl sm:text-5xl font-bold tracking-tight mb-6 uppercase">
         STEFANOS <br/>
         CHATZIKYRIAKOU
       </h1>

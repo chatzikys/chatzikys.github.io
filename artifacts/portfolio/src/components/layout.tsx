@@ -16,8 +16,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Mobile: stacked layout */}
           <div className="flex sm:hidden flex-col py-2 gap-2">
-            <Link href="/" className="font-mono font-semibold text-primary tracking-wider hover:text-primary/80 transition-colors">
-              S.CHATZIKYRIAKOU
+            <Link href="/" className="font-mono font-bold text-lg text-primary tracking-wider hover:text-primary/80 transition-colors">
+              STEFANOS CHATZIKYRIAKOU
             </Link>
             <nav className="flex items-center gap-5">
               {links.map((link) => {
@@ -37,8 +37,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </div>
           {/* Desktop: single row layout */}
           <div className="hidden sm:flex h-14 items-center justify-between">
-            <Link href="/" className="font-mono font-semibold text-primary tracking-wider hover:text-primary/80 transition-colors">
-              S.CHATZIKYRIAKOU
+            <Link href="/" className="font-mono font-bold text-xl text-primary tracking-wider hover:text-primary/80 transition-colors">
+              STEFANOS CHATZIKYRIAKOU
             </Link>
             <nav className="flex items-center gap-6">
               {links.map((link) => {
