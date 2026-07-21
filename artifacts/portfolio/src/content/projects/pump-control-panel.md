@@ -2,7 +2,7 @@
 title: "Pump Control Panel"
 description: "Designed and built two identical motor control panels for pump applications using a star–delta starter configuration to reduce starting current and ensure smooth motor operation."
 tags: ["Motor Control", "Panel Wiring", "Star-Delta", "Industrial"]
-period: "Aug 2025 – Sep 2025"
+date: "Aug 2025 – Sep 2025"
 status: "Complete"
 ---
 
