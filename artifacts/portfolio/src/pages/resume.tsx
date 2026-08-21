@@ -129,6 +129,29 @@ export default function Resume() {
               </ul>
             </div>
 
+            <div className="mb-6 pl-4 break-inside-avoid print:pt-4">
+              <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
+                <div className="font-bold text-lg">Self-employed</div>
+                <div className="font-mono text-sm self-center">
+                  Jul 2022 – Present
+                </div>
+                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">
+                  Freelance Electrical Technician
+                </div>
+              </div>
+              <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
+                <li>
+                  Install, maintain, and troubleshoot residential electrical
+                  installations.
+                </li>
+                <li>Perform electrical fault diagnosis and repairs.</li>
+                <li>Install structured cabling and FTTH infrastructure.</li>
+                <li>
+                  Carry out electrical panel upgrades, lighting installations,
+                  and wiring modifications.
+                </li>
+              </ul>
+            </div>
           </section>
 
           <section className="mb-8 break-inside-avoid print:pt-6">

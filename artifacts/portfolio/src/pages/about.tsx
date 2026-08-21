@@ -54,12 +54,13 @@ export default function About() {
                 sales, and power systems.
               </p>
               <p>
-                 Alongside my studies I work part-time in technical sales,
-                 helping contractors select electrical equipment. I recently
-                 completed an engineering internship at AMPPE S.A., developing
-                 practical experience in medium-voltage substation maintenance,
-                 diagnostic testing, transformer oil testing, electrical
-                 inspections, and industrial power distribution.
+                 Alongside my studies I work as a freelance electrical
+                 technician and part-time in technical sales, helping
+                 contractors select electrical equipment. I recently completed
+                 an engineering internship at AMPPE S.A., developing practical
+                 experience in medium-voltage substation maintenance, diagnostic
+                 testing, transformer oil testing, electrical inspections, and
+                 industrial power distribution.
               </p>
               <p>
                 I enjoy connecting theory with real-world applications and
@@ -107,6 +108,21 @@ export default function About() {
                   </span>
                 </div>
               </li>
+               <li className="flex gap-4 p-4 border border-border bg-card/30">
+                 <span className="text-primary mt-1 font-mono">—</span>
+                 <div>
+                   <strong className="text-foreground font-sans text-base block mb-1">
+                     Freelance Electrical Technician
+                   </strong>
+                   <span className="text-muted-foreground leading-relaxed block">
+                     Residential installations, structured cabling, FTTH
+                     infrastructure, panel upgrades, fault diagnosis and repairs.{" "}
+                     <span className="text-primary font-mono text-xs">
+                       Jul 2022 – Present
+                     </span>
+                   </span>
+                 </div>
+               </li>
             </ul>
           </section>
 
