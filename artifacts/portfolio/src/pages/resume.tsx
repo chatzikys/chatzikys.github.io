@@ -63,7 +63,7 @@ export default function Resume() {
               <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
                 <div className="font-bold text-lg">AMPPE S.A.</div>
                 <div className="font-mono text-sm self-center">
-                  Jul 2026 – Present
+                  Jul 2026 – Aug 2026
                 </div>
                 <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">
                   Electrical Engineering Intern
@@ -71,24 +71,33 @@ export default function Resume() {
               </div>
               <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
                 <li>
-                  Assist in the installation, testing, and maintenance of
-                  Medium- and High-Voltage substations.
+                  Supported preventive maintenance on medium-voltage
+                  substations, performing equipment cleaning and comprehensive
+                  electrical testing.
                 </li>
                 <li>
-                  Interpret electrical schematics, single-line diagrams, and
+                  Carried out diagnostic measurements, including insulation
+                  resistance, winding resistance, turns ratio, and HV–LV
+                  isolation resistance.
+                </li>
+                <li>
+                  Collected samples and performed dielectric oil testing to
+                  assess transformer insulation integrity.
+                </li>
+                <li>
+                  Conducted general electrical installation inspections.
+                </li>
+                <li>
+                  Interpreted electrical schematics, single-line diagrams, and
                   technical documentation.
                 </li>
                 <li>
-                  Participate in electrical assembly and commissioning
+                  Participated in electrical assembly and commissioning
                   activities.
                 </li>
                 <li>
-                  Support preventive and corrective maintenance of industrial
-                  power distribution equipment.
-                </li>
-                <li>
-                  Follow engineering safety procedures and industry standards in
-                  industrial environments.
+                  Followed engineering safety procedures and industry standards
+                  while working in industrial environments.
                 </li>
               </ul>
             </div>
@@ -120,29 +129,6 @@ export default function Resume() {
               </ul>
             </div>
 
-            <div className="mb-6 pl-4 break-inside-avoid print:pt-4">
-              <div className="grid grid-cols-[1fr_auto] gap-x-4 gap-y-1 mb-2">
-                <div className="font-bold text-lg">Self-employed</div>
-                <div className="font-mono text-sm self-center">
-                  Jul 2022 – Present
-                </div>
-                <div className="text-muted-foreground print:text-gray-700 col-span-2 text-base">
-                  Freelance Electrical Technician
-                </div>
-              </div>
-              <ul className="list-disc list-outside text-sm space-y-2 ml-4 text-muted-foreground print:text-gray-800 leading-relaxed">
-                <li>
-                  Install, maintain, and troubleshoot residential electrical
-                  installations.
-                </li>
-                <li>Perform electrical fault diagnosis and repairs.</li>
-                <li>Install structured cabling and FTTH infrastructure.</li>
-                <li>
-                  Carry out electrical panel upgrades, lighting installations,
-                  and wiring modifications.
-                </li>
-              </ul>
-            </div>
           </section>
 
           <section className="mb-8 break-inside-avoid print:pt-6">

@@ -53,11 +53,11 @@ export function getProjects(): Project[] {
     
     return {
       slug,
-      title: data.title || 'Untitled',
-      description: data.description || '',
-      tags: data.tags || [],
-      date: data.date || '',
-      status: data.status || 'Unknown',
+      title: typeof data.title === 'string' ? data.title : 'Untitled',
+      description: typeof data.description === 'string' ? data.description : '',
+      tags: Array.isArray(data.tags) ? data.tags.filter((tag): tag is string => typeof tag === 'string') : [],
+      date: typeof data.date === 'string' ? data.date : '',
+      status: typeof data.status === 'string' ? data.status : 'Unknown',
       content,
     };
   });

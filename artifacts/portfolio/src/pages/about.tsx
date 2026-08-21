@@ -32,7 +32,7 @@ export default function About() {
             </div>
             <div className="flex justify-between border-b border-border/50 pb-1">
               <span className="text-muted-foreground">DEGREE:</span>
-              <span>Meng ECE</span>
+              <span>MEng ECE</span>
             </div>
             <div className="flex justify-between">
               <span className="text-muted-foreground">LOCATION:</span>
@@ -54,13 +54,12 @@ export default function About() {
                 sales, and power systems.
               </p>
               <p>
-                Alongside my studies I have worked as a freelance electrical
-                technician — residential installations, structured cabling,
-                troubleshooting, and maintenance — and part-time in technical
-                sales, helping contractors select electrical equipment. I am
-                currently doing an engineering internship focused on power
-                systems, developing skills in electrical assemblies, schematic
-                interpretation, testing, and industrial power distribution.
+                 Alongside my studies I work part-time in technical sales,
+                 helping contractors select electrical equipment. I recently
+                 completed an engineering internship at AMPPE S.A., developing
+                 practical experience in medium-voltage substation maintenance,
+                 diagnostic testing, transformer oil testing, electrical
+                 inspections, and industrial power distribution.
               </p>
               <p>
                 I enjoy connecting theory with real-world applications and
@@ -71,26 +70,27 @@ export default function About() {
 
           <section>
             <h2 className="text-xl font-bold flex items-center gap-2 mb-4 border-b border-border pb-2 uppercase">
-              <Zap className="w-5 h-5 text-primary" /> Current Work
+              <Zap className="w-5 h-5 text-primary" /> Recent Work
             </h2>
             <ul className="space-y-4 text-sm">
-              <li className="flex gap-4 p-4 border border-border bg-card/30">
-                <span className="text-primary mt-1 font-mono">—</span>
-                <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">
-                    Electrical Engineering Intern — AMPPE S.A.
-                  </strong>
-                  <span className="text-muted-foreground leading-relaxed block">
-                    Installation, testing, and maintenance of Medium- and
-                    High-Voltage substations. Schematic interpretation,
-                    commissioning, and industrial power distribution
-                    maintenance.{" "}
-                    <span className="text-primary font-mono text-xs">
-                      Jul 2026 – Present
-                    </span>
-                  </span>
-                </div>
-              </li>
+               <li className="flex gap-4 p-4 border border-border bg-card/30">
+                 <span className="text-primary mt-1 font-mono">—</span>
+                 <div>
+                   <strong className="text-foreground font-sans text-base block mb-1">
+                     Electrical Engineering Intern — AMPPE S.A.
+                   </strong>
+                   <span className="text-muted-foreground leading-relaxed block">
+                     Preventive maintenance and diagnostic testing on
+                     medium-voltage substations, including transformer
+                     insulation and dielectric oil testing, electrical
+                     installation inspections, schematic interpretation, and
+                     commissioning.{" "}
+                     <span className="text-primary font-mono text-xs">
+                       Jul 2026 – Aug 2026
+                     </span>
+                   </span>
+                 </div>
+               </li>
               <li className="flex gap-4 p-4 border border-border bg-card/30">
                 <span className="text-primary mt-1 font-mono">—</span>
                 <div>
@@ -103,21 +103,6 @@ export default function About() {
                     engineers on product selection and installation practices.{" "}
                     <span className="text-primary font-mono text-xs">
                       Feb 2024 – Present
-                    </span>
-                  </span>
-                </div>
-              </li>
-              <li className="flex gap-4 p-4 border border-border bg-card/30">
-                <span className="text-primary mt-1 font-mono">—</span>
-                <div>
-                  <strong className="text-foreground font-sans text-base block mb-1">
-                    Freelance Electrical Technician
-                  </strong>
-                  <span className="text-muted-foreground leading-relaxed block">
-                    Residential installations, structured cabling, FTTH
-                    infrastructure, panel upgrades, fault diagnosis and repairs.{" "}
-                    <span className="text-primary font-mono text-xs">
-                      Jul 2022 – Present
                     </span>
                   </span>
                 </div>
